@@ -1,0 +1,210 @@
+/*CSS reset*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Html*/
+html{
+    scroll-behavior: smooth;
+}
+/*navbar*/
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#logo{
+    margin: 7px 15px;
+}
+#logo img{
+    height: 50px;
+}
+#navbar ul{
+display: flex;
+}
+#navbar ul li{
+list-style: none;
+}
+#navbar ul li a{
+text-decoration: none;
+margin: 14px;
+color: aliceblue;
+font-family: 'Baloo Bhai 2', cursive;
+}
+#navbar ul li a:hover{
+color: black;
+background-color: white;
+border-radius: 10px;
+}
+
+/* Home Section*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 400px;
+}
+#home::before{
+    content: "";
+    background: url("img/homebg.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 480px;
+    z-index: -1;
+    opacity: 0.85;
+}
+#home p{
+    font-family: 'Bree Serif', serif;
+}
+
+#order_btn a{
+text-decoration: none;
+color: black;
+}
+
+/* Services section */
+
+#services{
+    display: flex;
+    margin: 34px;
+}
+#services .box{
+    border: 2px solid brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 38px;
+    border-radius: 30px;
+    margin: 2px 5px;
+    margin-bottom: 20px;
+    background: #f2f2f2;
+}
+#services .box img{
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+#service .box p{
+    font-family: 'Bree Serif', serif;
+
+}
+
+/* Clients section */
+
+#client-section{
+    position: relative;
+    z-index: -2;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url("img/bg1.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.clients-logo img{
+    height:120px;
+    margin-bottom: 20px;   
+}
+.clients-logo{
+    padding: 0px 35px;
+}
+
+/*Contact Section*/
+
+#contact{
+    position: relative;
+    z-index: 1;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    background: url("img/bg.jpg") no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:34px;
+}
+#contact-box label{
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem; 
+}
+#contact-box input ,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-family: 'Bree Serif', serif;
+}
+
+/*footer*/
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+/*utility classes*/
+
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.8rem;
+    padding: 20px;
+}
+.h-secondery{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+.center{
+    text-align: center;
+}
+.btn{
+    background-color: brown;
+    padding: 14px 10px;
+    border: 1px solid black;
+    border-radius: 11px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+

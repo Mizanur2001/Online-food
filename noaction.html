@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Action</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: center;
+            font-family: 'Baloo Bhai 2', cursive;
+            color: white;
+        }
+
+        #error {
+            text-align: center;
+            font-size: 150px;
+            margin: 10px;
+            color: white;
+            
+        }
+
+        h1::before {
+            content: "";
+            background:url("img/error.jpg") no-repeat center center /cover;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.7;
+
+        }
+        #content{
+            text-align: center;
+            font-family: 'Baloo Bhai 2', cursive;
+            margin-top: 59px;
+            font-size: 1.2rem;
+            color: white;
+        }
+    </style>
+    <link rel="stylesheet" media="screen and (max-width: 455px)" href="error_phone.css">
+</head>
+
+<body>
+    <h1>This is No Action Page</h1>
+    <p id="error">\(0_0)/</p>
+    <p id="content">This is Front End Website This is made only for design purpose. It's Back End is not ready yet</p>
+
+</body>
+
+</html>

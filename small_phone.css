@@ -1,0 +1,20 @@
+/*navbar Section*/
+
+#navbar ul li a{
+    font-size: 0.8rem;
+    padding: 0px 0px;
+    padding-bottom: 8px;
+}
+
+/*services Section*/
+
+#services .box img {
+    height: 171px;
+    width: 244px;
+}
+
+/* Utility Classes*/
+
+.h-secondery {
+    font-size: 1.5rem;
+}

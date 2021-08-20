@@ -1,0 +1,31 @@
+/*navbar section*/
+
+#navbar ul li a {
+    font-size: 0.6rem;
+    padding: 0px 0px;
+    padding-bottom: 8px;
+}
+
+/*Services section*/
+
+#services .box img {
+    height: 129px;
+    width: 180px;
+}
+
+/*Contact Section*/
+
+#contact-box input, #contact-box textarea {
+    font-size: 1rem;
+}
+
+/*Utility Classes*/
+
+.h-primary {
+    font-size: 20px;
+}
+.h-secondery {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.2rem;
+    padding: 10px;
+}
